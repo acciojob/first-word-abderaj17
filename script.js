@@ -8,7 +8,7 @@ function firstWord(str) {
     const firstSpaceIndex = str.indexOf(" ");
     
     // Return the substring from the start to the first space
-    return str.substring(0, firstSpaceIndex + "" );
+    return str.substring(0, firstSpaceIndex );
 }   
 // Do not change the code below 
 
