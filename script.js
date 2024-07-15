@@ -1,14 +1,11 @@
 function firstWord(str) {
+    str = str.trim();
     // Check if the string is empty or does not contain any space
     if (str === "" || !str.includes(" ")) {
         return str;
     }
-    
-    // Find the index of the first space
-    const firstSpaceIndex = str.indexOf(" ");
-    
-    // Return the substring from the start to the first space
-    return str.substring(0, firstSpaceIndex );
+    const words = str.split(" ");
+    return words[0];
 }   
 // Do not change the code below 
 
